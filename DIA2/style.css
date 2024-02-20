@@ -1,9 +1,17 @@
 #titulo{
-    color: white;
-    border: 3px solid white;
+    color: black;
+    border: 7px solid white;
 }
 
 #titulo1{
-    color: white;
+    color: black;
    
 }
+
+
+#titulo3{
+    border: 7px solid purple;
+
+}
+
+
