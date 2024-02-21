@@ -1,10 +1,13 @@
 #titulo{
     color: black;
     border: 7px solid white;
+    text-align: center;
+    
 }
 
 #titulo1{
     color: black;
+    text-align: center;
    
 }
 
@@ -12,6 +15,18 @@
 #titulo3{
     border: 7px solid purple;
 
+
+
+}
+
+.imagen {
+
+    margin-left: 530px;
+
+}
+
+#margen{
+    margin: 230px;
 }
 
 
