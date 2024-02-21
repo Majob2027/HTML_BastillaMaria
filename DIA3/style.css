@@ -1,17 +1,53 @@
 .tituloprincipal{
-    color: pink;
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
-    background-color: #ff0000
+    background-color: #a7edff
+}
+
+.Contenido{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: paleturquoise;
+    
 }
 
 .contenido{
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
-    background-color: paleturquoise
+    background-color: rgb(244, 226, 255);
+    
 }
     
-    
 
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #ffbfbf;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  padding: 250px 380px;
+  text-decoration: none;
+  color: #000000;
+}
+nav ul li a:hover {
+  background-color: #daf5d5;
+}
+.contenido {
+  padding: 20px;
+}
+/* Estilos específicos para secciones */
+.secciones {
+  display: none;
+}
+.secciones:target {
+  display: block;
+}
 
 
 #Tabla{
