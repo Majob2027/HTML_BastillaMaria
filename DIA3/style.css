@@ -31,9 +31,9 @@ nav ul li {
 }
 nav ul li a {
   display: block;
-  padding: 250px 380px;
+  padding: 250px 360px;
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 nav ul li a:hover {
   background-color: #daf5d5;
