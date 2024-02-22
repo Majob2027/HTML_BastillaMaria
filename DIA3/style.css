@@ -26,8 +26,8 @@ nav ul {
   background-color: #ffbfbf;
   overflow: hidden;
 }
-nav ul li {
-  float: left;
+    nav ul li {
+      float: left;
 }
 nav ul li a {
   display: block;
