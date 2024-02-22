@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta rel="stylesheet" href="Index.css">
-    <title>Document</title>
+    <title>Mi web</title>
 </head>
-<body style="background-color: rgb(255, 225, 255);">
+<body id="formulario"  style="background-color: rgb(255, 225, 255);" >
     <div>
     <h2>Formulario de registro - Mi web</h2>
 
@@ -15,9 +15,27 @@
   <input type="text" id="fname" name="fname" placeholder="type your name"><br><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname" placeholder="type your last name"><br><br>
-  <label for="lname">Last name:</label><br>
+  <ul>
+    <li>
+      <input type="radio" id="Man" name="meal" value="Man" checked />
+      <label for="Man">Man</label>
+
+    <li>
+      <input type="radio" id="Women" name="meal" value="Women" />
+      <label for="curry">Women</label>
+      
+    </li>
+  </ul>
+  <label for="cemail">Email:</label><br>
   <input type="text" id="cemail" name="cemail" placeholder="type your email"><br><br>
+  <input type="checkbox" id="Informacion" name="Informacion" value="Informacion" checked="checkend">
+  <label for ="declaracion"> Deseo recibir información sobre novedades y ofertas  </label><br>
+  <input type="checkbox" id="declaracion" name="declaracion" value="declaracion" >
+  <label for ="declaracion"> Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos  </label><br><br>
   <input type="submit" value="Submit">
+
+
+  
 </form> 
 </div>
     
