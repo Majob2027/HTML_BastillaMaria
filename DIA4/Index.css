@@ -1,8 +1,15 @@
-#formulario{
+.form {
+    /* Centrar el formulario en la página */
     align-items: center;
-    border: 7px color(srgb red green blue);
-}
+    margin: 0 auto;
+    width: 400px;
+    /* Esquema del formulario */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1em;
+    border: 7px solid #ffffff;
+    border-radius: 2em;
+    justify-content: center;
+    align-items: center;
+    
+  }
 
-
-
-w

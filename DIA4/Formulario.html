@@ -3,41 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="Index.css">
     <title>Mi web</title>
+    <style>
+        body {
+            background-color: rgb(255, 225, 255);
+            font-family:'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 85vh;
+        }
+        .form {
+            background-color: #ffe2e2;
+            padding: 20px;
+            border-radius: 50px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        ul {
+            list-style:none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 50px;
+        }
+    </style>
 </head>
-<body id="formulario"  style="background-color: rgb(255, 225, 255);" >
+
+<body class="form">
     <div>
-    <h2>Formulario de registro - Mi web</h2>
+        <h2><center>Formulario de registro - Mi web</center></h2>
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" placeholder="type your name"><br><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" placeholder="type your last name"><br><br>
-  <ul>
-    <li>
-      <input type="radio" id="Man" name="meal" value="Man" checked />
-      <label for="Man">Man</label>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Type your name" required minlength="1" maxlength="50" ><br><br>
+            
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Type your last name" required minlength="1" maxlength="50" ><br><br>
+            
+            <ul>
+              <li>
+                <input type="radio" id="Man" name="meal" value="Man"  />
+                <label for="Man">Man</label>
+          
+              <li>
+                <input type="radio" id="Women" name="meal" value="Women"  />
+                <label for="Women">Women</label>
+                
+              </li>
+            </ul>
+            
+            <label for="cemail">Email:</label><br>
+            <input type="email" id="cemail" name="cemail" placeholder="Type your email" required minlength="1" maxlength="50" ><br><br>
+            
+            <input type="checkbox" id="Informacion" name="Informacion" value="Informacion" checked>
+            <label for="Informacion">Deseo recibir información sobre novedades y ofertas</label><br>
+            
+            <input type="checkbox" id="declaracion" name="declaracion" value="declaracion" required>
+            <label for="declaracion">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br><br>
 
-    <li>
-      <input type="radio" id="Women" name="meal" value="Women" />
-      <label for="curry">Women</label>
-      
-    </li>
-  </ul>
-  <label for="cemail">Email:</label><br>
-  <input type="text" id="cemail" name="cemail" placeholder="type your email"><br><br>
-  <input type="checkbox" id="Informacion" name="Informacion" value="Informacion" checked="checkend">
-  <label for ="declaracion"> Deseo recibir información sobre novedades y ofertas  </label><br>
-  <input type="checkbox" id="declaracion" name="declaracion" value="declaracion" >
-  <label for ="declaracion"> Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos  </label><br><br>
-  <input type="submit" value="Submit">
-
-
-  
-</form> 
-</div>
-    
+            <label for="lang">Poblacion</label>
+               <select name="Poblacion" id="lang">
+               <option value="Bucaramanga">Bucaramanga</option>
+               <option value="Giron">Giron</option>
+               <option value="Floridablanca">Floridablanca</option>
+               <option value="Piedecuesta">Piedecuesta</option><br>
+               </select><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
+
 </html>
