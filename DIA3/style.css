@@ -38,9 +38,7 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #daf5d5;
 }
-.contenido {
-  padding: 20px;
-}
+
 /* Estilos específicos para secciones */
 .secciones {
   display: none;
