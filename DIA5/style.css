@@ -1,0 +1,95 @@
+body{
+    <im
+}
+
+.centrado{
+    position: absolute;
+    top: 517px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+    background: transparent url('img/Your favorite content, on one place only..png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+.caja{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+
+}
+
+.lupa{
+    position: absolute;
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+    background: transparent url('img/Icon awesome-search.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+} 
+
+.imglogin{
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    background: transparent url('img/Group 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Login{
+    position: absolute;
+    top: 48px;
+    left: 1773px;
+    width: 50px;
+    height: 20px;
+    background: transparent url('./imagenes/Login.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    }
+
+.prime{
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+    background: transparent url('img/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.texto2{
+    position: absolute;
+    top: 608px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    background: transparent url('img/Now you can enjoy everything from Amazon Prime Video and Twitch Prime with you Amazon Prime subscription on one place that brings all the entertainment you love. .png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.r2{
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    /* UI Properties */
+    background: transparent url('img/Rectangle 2.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 52px;
+    opacity: 1;
+}
+
+.amazon{
+    position: absolute;
+    top: 787px;
+    left: 780px;
+    width: 360px;
+    height: 40px;
+    background: transparent url('img/Sign-Up on Amazon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
