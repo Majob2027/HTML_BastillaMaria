@@ -6,10 +6,57 @@
     /* Esquema del formulario */
     font-family: 'Courier New', Courier, monospace;
     padding: 1em;
-    border: 7px solid #ffffff;
-    border-radius: 2em;
+    border: 7px solid #ffeafa;
+    border-radius: 3%;
     justify-content: center;
     align-items: center;
     
   }
+
+  .form input {
+    border: 3px solid rgb(253, 191, 191);
+    width: 200px;
+
+  }
+
+  .form input[type="radio"]{
+    border: 3px solid rgb(253, 191, 191);
+    width: 10px;
+    
+  }
+
+  .form input[type="checkbox"]{
+    border: 3px solid rgb(253, 191, 191);
+    width: 10px;
+    padding: 3px;
+    
+  }
+
+  .form input[type="submit"]{
+    border: 3px solid rgb(253, 191, 191);
+    width: 400px;
+    padding: 7px;
+    
+  }
+
+  .form input[type="submit"]:hover{
+    background-color: rgb(218, 255, 243);
+    
+    
+  }
+
+  .footer{
+    color: rgb(210, 30, 30);
+    text-align: center;
+
+  }
+
+
+  
+
+
+
+
+   
+   
 

@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Index.css">
-    <title>Mi web</title>
+    <title>Formulario de registro - Mi web</title>
     <style>
         body {
-            background-color: rgb(255, 225, 255);
+            background-color: rgb(248, 248, 248);
             font-family:'Courier New', Courier, monospace;
-            display: flex;
             justify-content: center;
             align-items: center;
-            height: 85vh;
+            height: 90vh;
             margin: 0px;
         }
         .form {
             background-color: #ffe2e2;
+            font-family:'Courier New', Courier, monospace;
             padding: 20px;
             border-radius: 50px;
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            height: 65vh
+            
         }
         ul {
             list-style:none;
@@ -31,8 +33,8 @@
     </style>
 </head>
 
-<body class="form">
-    <div>
+<body >
+    <div class="form" class="body">
         <h2><center>Formulario de registro - Mi web</center></h2>
 
         <form action="/action_page.php">
@@ -53,6 +55,13 @@
                 
               </li>
             </ul>
+            <label for="lang">Poblacion</label>
+               <select name="Poblacion" id="lang">
+               <option value="Bucaramanga">Bucaramanga</option>
+               <option value="Giron">Giron</option>
+               <option value="Floridablanca">Floridablanca</option>
+               <option value="Piedecuesta">Piedecuesta</option><br>
+               </select><br><br>
             
             <label for="cemail">Email:</label><br>
             <input type="email" id="cemail" name="cemail" placeholder="Type your email" required minlength="1" maxlength="50" ><br><br>
@@ -62,18 +71,17 @@
             
             <input type="checkbox" id="declaracion" name="declaracion" value="declaracion" required>
             <label for="declaracion">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br><br>
+            <input    type="submit" value="Submit">
 
-            <label for="lang">Poblacion</label>
-               <select name="Poblacion" id="lang">
-               <option value="Bucaramanga">Bucaramanga</option>
-               <option value="Giron">Giron</option>
-               <option value="Floridablanca">Floridablanca</option>
-               <option value="Piedecuesta">Piedecuesta</option><br>
-               </select><br><br>
-            
-            <input type="submit" value="Submit">
+
         </form>
+        
     </div>
+    <footer class="footer">
+        <p>&copy; 2024 Maria Jose Bastilla Osorio . Todos los derechos reservados a mi</p>
+    </footer>
+
 </body>
+
 
 </html>
