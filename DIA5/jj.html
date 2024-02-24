@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto sobre Imagen</title>
+    <style>
+        /* Estilo para el contenedor que envuelve la imagen y el texto */
+        .contenedor {
+            position: relative;
+            text-align: center;
+            color: white; /* Color del texto */
+        }
+
+        /* Estilo para la imagen dentro del contenedor */
+        .imagen {
+            width: 100%; /* Ajustar la imagen al 100% del contenedor */
+            height: auto; /* Mantener la proporción de la imagen */
+        }
+
+        /* Estilo para el texto superpuesto */
+        .texto {
+            position: absolute;
+            top: 50%; /* Posiciona el texto en la mitad superior del contenedor */
+            left: 50%; /* Posiciona el texto en el centro horizontal del contenedor */
+            transform: translate(-50%, -50%); /* Centra el texto correctamente */
+            font-size: 24px; /* Tamaño del texto */
+            /* Puedes agregar más estilos según tus preferencias */
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <img src="ruta_de_tu_imagen.jpg" alt="Descripción de la imagen" class="imagen">
+        <div class="texto">Tu texto aquí</div>
+    </div>
+</body>
+</html>

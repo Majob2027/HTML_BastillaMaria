@@ -1,3 +1,5 @@
+
+
 body{
     background-image:url(imagenes/Path\ 1.png);
     border: 1px color(#707070);
@@ -6,16 +8,17 @@ body{
     width: 1918px;
     height: 4149px;
 }
-.centrado{
+
+.texto {
+    color: white;
     position: absolute;
     top: 517px;
-    left: 389px;
-    width: 1151px;
+    left: 389px; 
     height: 60px;
-    background: transparent url('img/Your favorite content, on one place only..png') 0% 0% no-repeat padding-box;
     opacity: 1;
-    
+    font-size: 24px; 
 }
+
 .caja{
     position: relative;
     top: 0px;
@@ -67,6 +70,7 @@ body{
 
 .texto2{
     position: absolute;
+    color: rgb(255, 255, 255);
     top: 608px;
     left: 380px;
     width: 1160px;
@@ -89,11 +93,11 @@ body{
 
 .amazon{
     position: absolute;
+    color: rgb(0, 0, 0);
     top: 787px;
     left: 780px;
     width: 360px;
     height: 40px;
-    background: transparent url('img/Sign-Up on Amazon.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 
 }
