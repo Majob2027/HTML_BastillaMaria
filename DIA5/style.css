@@ -1,5 +1,6 @@
 body{
     background-image:url(imagenes/Path\ 1.png);
+    border: 1px color(#707070)
 }
 .centrado{
     position: absolute;
