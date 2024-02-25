@@ -24,10 +24,11 @@ body{
     position: absolute;
     top: 517px;
     left: 389px;
+    
 }
 
 .caja{
-    position: relative;
+    position: absolute;
     top: 0px;
     left: 0px;
     width: 1920px;
@@ -43,6 +44,10 @@ body{
     height: 36px;
     background: transparent url('img/Icon awesome-search.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+    cursor: pointer;
+    border: transparent;
+    background-color: transparent;
+    width: auto;
 } 
 
 .imglogin{
@@ -60,11 +65,16 @@ body{
     color: black;
     font-family:'Light',sans-serif;
     font-size: 20px;
-    top: 45px;
-    left: 1773px;
-    width: 50px;
+    top: 43px;
+    left: 1770px;
     height: 20px;
     opacity: 1;
+    border: none;
+    background-color: transparent;
+    width: auto;
+    padding-bottom: 25px;
+    cursor: pointer;
+    
     }
 
 .prime{
@@ -110,6 +120,10 @@ body{
     width: 360px;
     height: 40px;
     opacity: 1;
+    padding-bottom: 50px;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
 
 }
 
