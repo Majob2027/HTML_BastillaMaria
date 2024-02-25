@@ -2,21 +2,28 @@
 
 body{
     background-image:url(imagenes/Path\ 1.png);
-    border: 1px color(#707070);
     top: 0px;
     left: 2px;
     width: 1918px;
     height: 4149px;
 }
 
+@font-face {
+    font-family:'BD';
+    src: url(fuentes/BD.ttf);
+    font-family:'Light';
+    src: url(fuentes/Light.ttf);
+}
+
+
+
 .texto {
     color: white;
+    font-family:'BD',sans-serif;
+    font-size: 60px;
     position: absolute;
     top: 517px;
-    left: 389px; 
-    height: 60px;
-    opacity: 1;
-    font-size: 24px; 
+    left: 389px;
 }
 
 .caja{
@@ -50,11 +57,13 @@ body{
 
 .Login{
     position: absolute;
-    top: 48px;
+    color: black;
+    font-family:'Light',sans-serif;
+    font-size: 20px;
+    top: 45px;
     left: 1773px;
     width: 50px;
     height: 20px;
-    background: transparent url('./imagenes/Login.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     }
 
@@ -71,20 +80,20 @@ body{
 .texto2{
     position: absolute;
     color: rgb(255, 255, 255);
+    font-family:'Light',sans-serif;
+    font-size: 30px;
     top: 608px;
     left: 380px;
     width: 1160px;
     height: 102px;
-    background: transparent url('img/Now you can enjoy everything from Amazon Prime Video and Twitch Prime with you Amazon Prime subscription on one place that brings all the entertainment you love. .png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
+    text-align: center;
+    }
 .r2{
     position: absolute;
     top: 755px;
     left: 730px;
     width: 458px;
     height: 104px;
-    /* UI Properties */
     background: transparent url('img/Rectangle 2.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 52px;
@@ -94,8 +103,10 @@ body{
 .amazon{
     position: absolute;
     color: rgb(0, 0, 0);
-    top: 787px;
-    left: 780px;
+    font-family:'Light',sans-serif;
+    font-size: 40px;
+    top: 780px;
+    left: 787px;
     width: 360px;
     height: 40px;
     opacity: 1;
@@ -125,12 +136,14 @@ body{
 
 .p1{
     position: absolute;
+    color: white;
+    font-family:'BD',sans-serif;
+    font-size: 60px;
+    text-align: center;
     top: 1773px;
     left: 135px;
     width: 1664px;
     height: 60px;
-    background: transparent url('img/Don’t like to watch Live? No problem , we got you covered.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 .pelicula1{
@@ -189,12 +202,14 @@ body{
 
 .texto3{
     position: absolute;
+    color: white;
+    font-family:'Light',sans-serif;
+    text-align: center;
+    font-size: 50px;
     top: 2286px;
     left: 207px;
     width: 1492px;
     height: 110px;
-    background: transparent url('img/You’ll find a variety of movies, not only for adults but also for your family, with our without internet. 24/7. On demand..png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 .r3{
@@ -209,11 +224,14 @@ body{
 }
 .texto4{
     position: absolute;
+    color: white;
+    font-family:'BD',sans-serif;
+    text-align: center;
+    font-size: 60px;
     top: 2546px;
     left: 560px;
     width: 800px;
     height: 60px;
-    background: transparent url('img/Cancel any time , anywhere .png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
@@ -228,32 +246,37 @@ body{
 }
 .texto5{
     position: absolute;
+    color: rgb(255, 255, 255);
+    font-family:'Light',sans-serif;
+    font-size: 40px;
+    text-align: center;
     top: 2881px;
     left: 269px;
     width: 1382px;
     height: 88px;
-    background: transparent url('img/If you don’t like our services, you can cancel anytime you want , no contracts, no fees..png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 .titulo1{
     position: absolute;
+    color: white;
+    font-family:'Light',sans-serif;
+    font-size: 125px;
     top: 3127px;
     left: 418px;
     width: 1118px;
     height: 125px;
-    background: transparent url('img/Compatible devices.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 
 }
 
 .texto6{
     position: absolute;
+    color: white;
+    font-family:'Light',sans-serif;
+    text-align: center;
+    font-size: 45px;
     top: 3296px;
     left: 181px;
     width: 1544px;
     height: 99px;
-    background: transparent url('img/There’s a range of devices where you can enjoy all of the content available in Prime Entertainment:.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
     }
 
 .flecha1{
