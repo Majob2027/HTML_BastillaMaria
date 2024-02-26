@@ -1,0 +1,20 @@
+.fondo{
+    top: 200px;
+    left: 100px;
+    width: 1400px;
+    height: 800px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+
+.Logo{
+    top: 243px;
+    left: 143px;
+    /* UI Properties */
+    background: transparent url('img/1200px-Metrolínea_logo.svg.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
