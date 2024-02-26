@@ -41,7 +41,7 @@
 
 .texto2{
     position: absolute;
-    top: 924px;
+    top: 939px;
     left: 43px;
     width: 139px;
     height: 37px;
@@ -66,8 +66,6 @@
     position: absolute;
     top: 43px;
     left: 1500px;
-    height: 5px;
-    width: 5px;
 }
 
 .tarjeta{
@@ -76,4 +74,39 @@
     left: 150px;
     width: 884px;
     height: 540px;
+}
+
+.texto3{
+    position: absolute;
+    top: 43px;
+    left: 1350px;
+    font-size: 30px;
+    width: 132px;
+    height: 41px;
+}
+
+.texto4{
+    position: absolute;
+    top: 43px;
+    left: 1100px;
+    font-size: 30px;
+}
+
+.rectangulo{
+    position: absolute;
+    top: 850px;
+    left: 1500px;
+}
+
+.metrolinea2{
+    position: absolute;
+    top: 885px;
+    left: 1534px;
+}
+
+.texto5{
+    position: absolute;
+    top: 939px;
+    left: 1574px ;
+    font-size: 30px;
 }
