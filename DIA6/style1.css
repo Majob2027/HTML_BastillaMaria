@@ -83,6 +83,8 @@
     font-size: 30px;
     width: 132px;
     height: 41px;
+    color: #000000;
+    text-decoration: none;
 }
 
 .texto4{
@@ -90,6 +92,7 @@
     top: 43px;
     left: 1100px;
     font-size: 30px;
+    color: #000000;
 }
 
 .rectangulo{
