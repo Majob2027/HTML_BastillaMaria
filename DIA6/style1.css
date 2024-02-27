@@ -4,6 +4,14 @@
     height: 1080px;
     background-color: white;
 }
+@font-face {
+    font-family: regular;
+    src: url(/DIA6/fuentes/regular.ttf);
+}
+@font-face {
+    font-family:semibold ;
+    src: url(/DIA6/fuentes/semibold.ttf);
+}
 .logo2{
     width: 5px;
     height: 5px;
@@ -11,7 +19,7 @@
 
 .barra{
     position: absolute;
-    background-color: #000000;
+    background-color:#212020;
     top: -8px;
     left: 1816px;
     width: 190px;
@@ -29,18 +37,15 @@
 
 .texto{
     position: absolute;
+    font-family:semibold;
     top: 861px;
     left: 43px;
-    width: 716px;
-    height: 55px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-40)/var(--unnamed-line-spacing-55) var(--unnamed-font-family-open-sans);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-000000);
+    width: 900px;
     text-align: left;
-    font: normal normal 600 40px/55px Open Sans;
-    letter-spacing: 0px;
+    font-size: 50px;
     color: #000000;
     opacity: 1;
+
 }
 
 .texto2{
@@ -49,27 +54,23 @@
     left: 43px;
     width: 139px;
     height: 37px;
-    /* UI Properties */
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-27)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-open-sans);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-000000);
+    font-family: semibold;
+    font-size: 35px;
     text-align: left;
-    font: normal normal 600 27px/37px Open Sans;
-    letter-spacing: 0px;
     color: #000000;
     opacity: 1;
 }
 
 .carro{
     position: absolute;
-    top: 43px;
+    top: 59px;
     left: 1700px;
 }
 
 .lupa{
     position: absolute;
-    top: 43px;
-    left: 1500px;
+    top: 62px;
+    left: 1550px;
 }
 
 .tarjeta{
@@ -83,10 +84,9 @@
 .texto3{
     position: absolute;
     top: 43px;
-    left: 1350px;
-    font-size: 30px;
-    width: 132px;
-    height: 41px;
+    left: 1375px;
+    font-size: 39px;
+    font-family: regular;
     color: #000000;
     text-decoration: none;
 }
@@ -95,8 +95,10 @@
     position: absolute;
     top: 43px;
     left: 1100px;
-    font-size: 30px;
+    font-size: 39px;
+    font-family: regular;
     color: #000000;
+    text-decoration: none;
 }
 
 .rectangulo{
@@ -114,14 +116,32 @@
 .texto5{
     position: absolute;
     top: 939px;
-    left: 1574px ;
+    left: 1579px ;
     font-size: 30px;
+    font-family: semibold;
 }
 .texto9{
     position: absolute;
     color: white;
-    font-family:;
     top: 160px;
     left: 1860px;
     font-size: 30px;
+    font-family: regular;
+}
+.linea{
+    position: absolute;
+    top: 95px;
+    left: 1132px;
+}
+.up{
+    position: absolute;
+    top: 50px;
+    left: 1890px;
+
+}
+.down{
+    position: absolute;
+    top: 1000px;
+    left: 1890px;
+
 }

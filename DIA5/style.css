@@ -10,9 +10,9 @@ body{
 
 @font-face {
     font-family:'BD';
-    src: url(fuentes/BD.ttf);
+    src: url(fuentes/BD.ttf)format(truetype);
     font-family:'Light';
-    src: url(fuentes/Light.ttf);
+    src: url(fuentes/Light.ttf)format(truetype);
 }
 
 

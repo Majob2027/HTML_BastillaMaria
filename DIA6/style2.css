@@ -4,6 +4,14 @@
     height: 1080px;
     background-color: white;
 }
+@font-face {
+    font-family: regular;
+    src: url(/DIA6/fuentes/regular.ttf);
+}
+@font-face {
+    font-family:semibold ;
+    src: url(/DIA6/fuentes/semibold.ttf);
+}
 
 .barra{
     position: absolute;
@@ -26,14 +34,14 @@
 
 .carro{
     position: absolute;
-    top: 43px;
+    top: 58px;
     left: 1700px;
 }
 
 .lupa{
     position: absolute;
-    top: 43px;
-    left: 1500px;
+    top: 62px;
+    left: 1550px;
 }
 
 .tarjeta{
@@ -45,20 +53,21 @@
 .texto3{
     position: absolute;
     top: 43px;
-    left: 1350px;
-    font-size: 30px;
-    width: 132px;
-    height: 41px;
+    left: 1375px;
+    font-size: 39px;
     color: #000000;
+    text-decoration: none;
+    font-family: regular;
 }
 
 .texto4{
     position: absolute;
     top: 43px;
     left: 1100px;
-    font-size: 30px;
+    font-size: 39px;
     color: #000000;
     text-decoration: none;
+    font-family: regular
 }
 
 .rectangulo{
@@ -78,6 +87,7 @@
     top: 939px;
     left: 1574px ;
     font-size: 30px;
+    font-family: semibold;
 }
 
 .texto6{
@@ -85,6 +95,8 @@
     top: 570px;
     left: 580px ;
     font-size: 50px;
+    font-family: semibold;
+
 }
 
 .texto7{
@@ -92,6 +104,7 @@
     top: 660px;
     left: 750px ;
     font-size: 35px;
+    font-family: semibold;
 }
 
 .texto8{
@@ -99,12 +112,31 @@
     top: 730px;
     left: 830px ;
     font-size: 35px;
+    font-family: semibold;
 }
 .texto9{
     position: absolute;
     color: white;
-    font-family:;
+    font-family:regular;
     top: 160px;
-    left: 1890px;
+    left: 1888px;
     font-size: 30px;
+    font-family: regular;
+}
+.linea{
+    position: absolute;
+    top: 90px;
+    left: 1360px;
+}
+.up{
+    position: absolute;
+    top: 50px;
+    left: 1890px;
+
+}
+.down{
+    position: absolute;
+    top: 1000px;
+    left: 1890px;
+
 }
