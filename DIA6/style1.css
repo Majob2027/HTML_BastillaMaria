@@ -4,6 +4,10 @@
     height: 1080px;
     background-color: white;
 }
+.logo2{
+    width: 5px;
+    height: 5px;
+}
 
 .barra{
     position: absolute;
@@ -111,5 +115,13 @@
     position: absolute;
     top: 939px;
     left: 1574px ;
+    font-size: 30px;
+}
+.texto9{
+    position: absolute;
+    color: white;
+    font-family:;
+    top: 160px;
+    left: 1860px;
     font-size: 30px;
 }
