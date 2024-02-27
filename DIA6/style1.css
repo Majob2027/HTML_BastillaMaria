@@ -13,8 +13,8 @@
     src: url(/DIA6/fuentes/semibold.ttf);
 }
 .logo2{
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
 }
 
 .barra{
@@ -52,8 +52,6 @@
     position: absolute;
     top: 939px;
     left: 43px;
-    width: 139px;
-    height: 37px;
     font-family: semibold;
     font-size: 35px;
     text-align: left;
@@ -63,14 +61,14 @@
 
 .carro{
     position: absolute;
-    top: 59px;
+    top: 56px;
     left: 1700px;
 }
 
 .lupa{
     position: absolute;
-    top: 62px;
-    left: 1550px;
+    top: 57px;
+    left: 1575px;
 }
 
 .tarjeta{
@@ -94,7 +92,7 @@
 .texto4{
     position: absolute;
     top: 43px;
-    left: 1100px;
+    left: 1020px;
     font-size: 39px;
     font-family: regular;
     color: #000000;
@@ -116,7 +114,7 @@
 .texto5{
     position: absolute;
     top: 939px;
-    left: 1579px ;
+    left: 1565px ;
     font-size: 30px;
     font-family: semibold;
 }
@@ -124,14 +122,14 @@
     position: absolute;
     color: white;
     top: 160px;
-    left: 1860px;
+    left: 1850px;
     font-size: 30px;
     font-family: regular;
 }
 .linea{
     position: absolute;
     top: 95px;
-    left: 1132px;
+    left: 1100px;
 }
 .up{
     position: absolute;
@@ -144,4 +142,32 @@
     top: 1000px;
     left: 1890px;
 
+}
+.numero1{
+    position: absolute;
+    top: 350px;
+    left: 1895px;
+    color: #FFFFFF80;
+    font-size: 30px;
+    font-family: regular;
+
+}
+
+.numero2{
+    position: absolute; 
+    top: 500px;
+    left: 1895px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: regular;
+
+}
+
+.numero3{
+    position: absolute;
+    color: #FFFFFF80;
+    top: 650px;
+    left: 1895px;
+    font-size: 30px;
+    font-family: regular;
 }

@@ -34,14 +34,14 @@
 
 .carro{
     position: absolute;
-    top: 58px;
+    top: 56px;
     left: 1700px;
 }
 
 .lupa{
     position: absolute;
-    top: 62px;
-    left: 1550px;
+    top: 57px;
+    left: 1575px;
 }
 
 .tarjeta{
@@ -63,7 +63,7 @@
 .texto4{
     position: absolute;
     top: 43px;
-    left: 1100px;
+    left: 1020px;
     font-size: 39px;
     color: #000000;
     text-decoration: none;
@@ -85,7 +85,7 @@
 .texto5{
     position: absolute;
     top: 939px;
-    left: 1574px ;
+    left: 1565px ;
     font-size: 30px;
     font-family: semibold;
 }
@@ -119,14 +119,14 @@
     color: white;
     font-family:regular;
     top: 160px;
-    left: 1888px;
+    left: 1880px;
     font-size: 30px;
     font-family: regular;
 }
 .linea{
     position: absolute;
     top: 90px;
-    left: 1360px;
+    left: 1385px;
 }
 .up{
     position: absolute;
@@ -139,4 +139,33 @@
     top: 1000px;
     left: 1890px;
 
+}
+
+.numero1{
+    position: absolute;
+    top: 350px;
+    left: 1870px;
+    color: #FFFFFF80;
+    font-size: 30px;
+    font-family: regular;
+
+}
+
+.numero2{
+    position: absolute; 
+    top: 500px;
+    left: 1870px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: regular;
+
+}
+
+.numero3{
+    position: absolute;
+    color: #FFFFFF80;
+    top: 650px;
+    left: 1870px;
+    font-size: 30px;
+    font-family: regular;
 }
