@@ -154,6 +154,10 @@
     font-family: regular;
 
 }
+.numero1:hover{
+    color: white;
+    cursor: pointer;
+}
 
 .numero2{
     position: absolute; 
@@ -164,6 +168,10 @@
     font-family: regular;
 
 }
+.numero2:hover{
+    color: white;
+    cursor: pointer;
+}
 
 .numero3{
     position: absolute;
@@ -172,6 +180,10 @@
     left: 1805px;
     font-size: 30px;
     font-family: regular;
+}
+.numero3:hover{
+    color: white;
+    cursor: pointer;
 }
 .precio{
     position: absolute;
