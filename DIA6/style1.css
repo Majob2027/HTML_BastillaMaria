@@ -21,8 +21,8 @@
     position: absolute;
     background-color:#212020;
     top: -8px;
-    left: 1816px;
-    width: 190px;
+    left: 1730px;
+    width: 222px;
     height: 1100px;
 
 }
@@ -62,13 +62,13 @@
 .carro{
     position: absolute;
     top: 56px;
-    left: 1700px;
+    left: 1642px;
 }
 
 .lupa{
     position: absolute;
     top: 57px;
-    left: 1575px;
+    left: 1517px;
 }
 
 .tarjeta{
@@ -82,7 +82,7 @@
 .texto3{
     position: absolute;
     top: 43px;
-    left: 1375px;
+    left: 1317px;
     font-size: 39px;
     font-family: regular;
     color: #000000;
@@ -92,7 +92,7 @@
 .texto4{
     position: absolute;
     top: 43px;
-    left: 1020px;
+    left: 946px;
     font-size: 39px;
     font-family: regular;
     color: #000000;
@@ -101,52 +101,57 @@
 
 .rectangulo{
     position: absolute;
+    background-color: #D5FF43;
     top: 850px;
-    left: 1500px;
+    left: 1442px;
+    width:250px;
+    height:170px;
+    border-radius: 8px;
+    
 }
 
 .metrolinea2{
     position: absolute;
     top: 885px;
-    left: 1534px;
+    left: 1476px;
 }
 
 .texto5{
     position: absolute;
     top: 939px;
-    left: 1565px ;
-    font-size: 30px;
+    left: 1487px ;
+    font-size: 39px;
     font-family: semibold;
 }
 .texto9{
     position: absolute;
     color: white;
     top: 160px;
-    left: 1850px;
+    left: 1786px;
     font-size: 30px;
     font-family: regular;
 }
 .linea{
     position: absolute;
     top: 95px;
-    left: 1100px;
+    left: 1028px;
 }
 .up{
     position: absolute;
     top: 50px;
-    left: 1890px;
+    left: 1824px;
 
 }
 .down{
     position: absolute;
     top: 1000px;
-    left: 1890px;
+    left: 1824px;
 
 }
 .numero1{
     position: absolute;
     top: 350px;
-    left: 1895px;
+    left: 1835px;
     color: #FFFFFF80;
     font-size: 30px;
     font-family: regular;
@@ -156,7 +161,7 @@
 .numero2{
     position: absolute; 
     top: 500px;
-    left: 1895px;
+    left: 1835px;
     color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: regular;
@@ -167,7 +172,7 @@
     position: absolute;
     color: #FFFFFF80;
     top: 650px;
-    left: 1895px;
+    left: 1835px;
     font-size: 30px;
     font-family: regular;
 }

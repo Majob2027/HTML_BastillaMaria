@@ -17,8 +17,8 @@
     position: absolute;
     background-color: #000000;
     top: -8px;
-    left: 1816px;
-    width: 190px;
+    left: 1730px;
+    width: 222px;
     height: 1100px;
 
 }
@@ -35,13 +35,13 @@
 .carro{
     position: absolute;
     top: 56px;
-    left: 1700px;
+    left: 1642px;
 }
 
 .lupa{
     position: absolute;
     top: 57px;
-    left: 1575px;
+    left: 1517px;
 }
 
 .tarjeta{
@@ -53,7 +53,7 @@
 .texto3{
     position: absolute;
     top: 43px;
-    left: 1375px;
+    left: 1317px;
     font-size: 39px;
     color: #000000;
     text-decoration: none;
@@ -63,7 +63,7 @@
 .texto4{
     position: absolute;
     top: 43px;
-    left: 1020px;
+    left: 946px;
     font-size: 39px;
     color: #000000;
     text-decoration: none;
@@ -72,21 +72,25 @@
 
 .rectangulo{
     position: absolute;
+    background-color: #D5FF43;
     top: 850px;
-    left: 1500px;
+    left: 1442px;
+    width:250px;
+    height:170px;
+    border-radius: 8px;
 }
 
 .metrolinea2{
     position: absolute;
     top: 885px;
-    left: 1534px;
+    left: 1476px;
 }
 
 .texto5{
     position: absolute;
-    top: 939px;
-    left: 1565px ;
-    font-size: 30px;
+    top: 945px;
+    left: 1487px ;
+    font-size: 39px;
     font-family: semibold;
 }
 
@@ -119,32 +123,32 @@
     color: white;
     font-family:regular;
     top: 160px;
-    left: 1880px;
+    left: 1810px;
     font-size: 30px;
     font-family: regular;
 }
 .linea{
     position: absolute;
     top: 90px;
-    left: 1385px;
+    left: 1330px;
 }
 .up{
     position: absolute;
     top: 50px;
-    left: 1890px;
+    left: 1824px;
 
 }
 .down{
     position: absolute;
     top: 1000px;
-    left: 1890px;
+    left: 1824px;
 
 }
 
 .numero1{
     position: absolute;
     top: 350px;
-    left: 1870px;
+    left: 1805px;
     color: #FFFFFF80;
     font-size: 30px;
     font-family: regular;
@@ -154,7 +158,7 @@
 .numero2{
     position: absolute; 
     top: 500px;
-    left: 1870px;
+    left: 1805px;
     color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: regular;
@@ -165,7 +169,18 @@
     position: absolute;
     color: #FFFFFF80;
     top: 650px;
-    left: 1870px;
+    left: 1805px;
     font-size: 30px;
     font-family: regular;
+}
+.precio{
+    position: absolute;
+    top: 800px;
+    left: 770px;
+    border: 1px solid #707070;;
+    width: 380px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
 }
