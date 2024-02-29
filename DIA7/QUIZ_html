@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Quiz.css">
+    <title>Quiz</title>
+</head>
+<body class="fondo">
+ <div class="foods"> Foods </div>
+ <div class="home"> Home </div>
+ <div class="about"> About </div>
+ <div class="menu"> Menu </div>
+ <div class="service"> Service </div>
+ <div class="contact"> Contact </div>
+ <div class="titulo"> Full Website </div>
+ <div class="texto1"> Foods the <br> Most precious thing </div>
+<div>
+    <a href="" class="Caja"> Today's Menu</a>
+</div>
+ <div class="imghome"> <img src="Imagenes/home.png" alt="Descripción de la imagen" width="650px"></div>
+ <div class="aboutus"> About Us </div>
+ <div class="texto2"> We speak the good <br> food lenguage </div>
+ <div class="texto3"> It is a long established fact that a <br> be distracted by the readable contect<br>looking at its layout. The point of </div>
+ <div>
+    <a href="" class="Caja2"> Learn More</a>
+</div>
+<div class="imgabout"> <img src="Imagenes/about.png" alt="Descripción de la imagen" width="650px"></div>
+
+<div class="Foodmenu"> Food Menu </div>
+<div class="titulo2"> Fresh taste and grat price </div>
+
+<div class="cuadro1"> <p> </p></div>
+<div class="cuadro2"> <p> </p></div>
+<div class="cuadro3"> <p> </p></div>
+
+<div class="servicios"> Servicies </div>
+<div class="titulo3"> We provide best food services </div>
+<div class="imgorder"> <img src="Imagenes/s1.png" alt="Descripción de la imagen" width="400px"></div>
+<div class="imgshipping"> <img src="Imagenes/s2.png" alt="Descripción de la imagen" width="400px"></div>
+<div class="imgdellvered"> <img src="Imagenes/s3.png" alt="Descripción de la imagen" width="400px"></div>
+<div class="s1titulo"> Order </div>
+<div class="s1subtitulo"> It is a long established<br> be distracted by the readable<br> looking at its layout. </div>
+<div class="s2titulo"> Shipping </div>
+<div class="s2subtitulo"> It is a long established<br> be distracted by the readable<br> looking at its layout. </div>
+
+<div class="s3titulo"> Dellvered </div>
+<div class="s3subtitulo"> It is a long established<br> be distracted by the readable<br> looking at its layout. </div>
+<div class="imgcuadro1"> <img src="Imagenes/food1.png" alt="Descripción de la imagen" width="260px"></div>
+<div class="imgcuadro2"> <img src="Imagenes/food2.png" alt="Descripción de la imagen" width="260px"></div>
+<div class="imgcuadro3"> <img src="Imagenes/food3.png" alt="Descripción de la imagen" width="260px"></div>
+<div class="Nombrecomida1"> Chicken Burger </div>
+<div class="tipocomida1"> Tasty Food </div>
+<div class="Precio1"> $11.00 </div>
+<div class="Nombrecomida2"> Special Beef Burger </div>
+<div class="tipocomida2"> Tasty Food </div>
+<div class="Precio2"> $11.00 </div>
+<div class="Nombrecomida3"> Chicken Fry pack </div>
+<div class="tipocomida3"> Tasty Food </div>
+<div class="Precio3"> $11.00 </div>
+<div class="cuadro4"> <p> </p></div>
+<div class="texto5"> We make quality food <br> Everyday </div>
+<div>
+    <a href="" class="Caja"> Learn More</a>
+</div>
+<div>
+    <p class="link">Menu Links</p>
+</div>
+<div class="linea1"><p></p></div>
+<div class="menu1">
+    <p>Home <br> About <br> Menu <br> Service <br> Contact</p>
+</div>
+</body>
+</html>
+</body>
+</html>
