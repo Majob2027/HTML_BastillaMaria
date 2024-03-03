@@ -94,8 +94,8 @@
 .rectangulo{
     position: relative;
     background-color: #ff702a;
-    top: 620px;
-    left: 200px;
+    top: 38.7em;
+    left: 12.5em;
     width: 260px;
     height: 50px;
 }
@@ -117,8 +117,8 @@
     position: absolute;
     top: 8em;
     left: 67em;
-    width: 200px;
-    height: 300px;
+    width: 12.5em;
+    height: 18.7em;
 }
 .aboutus{
     position: absolute;
@@ -206,27 +206,27 @@
    background-color: #ffefe8;
    font-family: 'Poppins', sans-serif;
    font-size: 30px;
-   top: 2300px;
-   left: 750px;
-   width: 450PX;
-   height: 500PX;
+   top: 76.6em;
+   left: 25em;
+   width: 15em;
+   height: 16.6em;
 }
 .cuadro3{
     position: absolute;
    background-color: #ffefe8;
    font-size: 30px;
-   top: 2300px;
-   left: 1300px;
-   width: 450PX;
-   height: 500PX;
+   top: 76.6em;
+   left: 43.3em;
+   width: 15em;
+   height: 16.6em;
  
 }
 
 .servicios{
     position: absolute;
     color: #ff702a;
-    top:3000px ;
-    left: 850px;
+    top:75em ;
+    left: 21.2em;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
 
@@ -234,8 +234,8 @@
 
 .titulo3{
     position: absolute;
-    top: 3100px;
-    left: 400px;
+    top: 38.7em;
+    left: 5em;
     font-family: 'Poppins', sans-serif;
     font-size: 80px;
     color: #ffffff;
@@ -243,30 +243,30 @@
 
 .imgorder{
     position: absolute;
-    top: 3300px;
-    left: 150px;
+    top: 206.2em;
+    left: 9.3em;
 
 }
 
 .imgshipping{
     position: absolute;
-    top: 3300px;
-    left: 800px;
+    top:  206.2em;
+    left: 50em;
 
 }
 
 .imgdellvered{
     position: absolute;
-    top: 3250px;
-    left: 1400px;
+    top: 203.1em;
+    left: 87.5em;
 
 }
 
 .s1titulo{
     position: absolute;
     color: #ff702a;
-    left: 300px ;
-    top: 3650px;
+    left: 10em ;
+    top: 121.6em;
     font-size: 30px;
 
 
@@ -274,62 +274,62 @@
 .s1subtitulo{
     position: absolute;
     color: white;
-    left: 180px;
-    top: 3720px;
+    left: 7.2em;
+    top: 148.8em;
     font-size: 25px;
     text-align: center;
 }
 .s2titulo{
     position: absolute;
     color: #ff702a;
-    left: 950px ;
-    top: 3650px;
+    left: 31.6em ;
+    top: 121.6em;
     font-size: 30px;
 
 }
 .s2subtitulo{
     position: absolute;
     color: white;
-    left: 850px;
-    top: 3720px;
+    left: 34em;
+    top: 148.8em;
     font-size: 25px;;
     text-align: center;
 }
 .s3titulo{
     position: absolute;
     color: #ff702a;
-    left: 1550px ;
-    top: 3650px;
+    left: 51.6em ;
+    top: 121.6em;
     font-size: 30px;
 
 }
 .s3subtitulo{
     position: absolute;
     color: white;
-    left: 1450px;
-    top: 3720px;
+    left: 58em;
+    top: 148.8em;
     font-size: 25px;
     text-align: center;
 }
 .imgcuadro1{
     position: absolute;
-    top: 2350px;
-    left: 300px;
+    top: 146.8em;
+    left: 18.75em;
 }
 .imgcuadro2{
     position: absolute;
-    top: 2350px;
-    left: 840px;
+    top: 146.8em;
+    left: 52.5em;
 }
 .imgcuadro3{
     position: absolute;
-    top: 2350px;
-    left: 1390px;
+    top: 146.8em;
+    left: 86.8em;
 }
 .Nombrecomida1{
     position: absolute;
-    top: 2620px;
-    left: 325px;
+    top: 87.3em;
+    left: 10.8em;
     color: rgb(0, 0, 0);
     font-size: 30px;
     text-align: center;
@@ -339,39 +339,39 @@
     position: absolute;
     color: rgb(0, 0, 0);
     font-size: 20px;
-    top:2670px ;
-    left: 380px ;
+    top:133.5em ;
+    left: 19em ;
 
 }
 .Precio1{
     position: absolute;
     color: #ff702a;
     font-size: 20px;
-    top: 2710px;
-    left: 395px;
+    top: 135.5em;
+    left: 19.6em;
 
 }
 .Nombrecomida2{
     position: absolute;
     color: rgb(0, 0, 0);
-    top:2620px ;
-    left: 850px;
+    top:87.3em;
+    left: 28.3em;
     font-size: 30px;
 
 }
 .tipocomida2{
     position: absolute;
     color: rgb(0, 0, 0);
-    top: 2670px;
-    left: 925px ;
+    top: 133.5em;
+    left: 46.2em ;
     font-size: 20px;
 
 }
 .Precio2{
     position: absolute;
     color: #ff702a;
-    top: 2710px;
-    left:950px ;
+    top: 135.5em;
+    left: 47.5em ;
     font-size: 20px;
 
 
@@ -380,40 +380,40 @@
     position: absolute;
     color: rgb(0, 0, 0);
     font-size: 30px;
-    top: 2620px;
-    left: 1420px;
+    top: 87.3em;
+    left: 46.9em;
 
 }
 .tipocomida3{
     position: absolute;
     color: rgb(0, 0, 0);
     font-size: 20px;
-    top: 2670px;
-    left: 1480px;
+    top: 133.6em;
+    left: 74em;
 
 }
 .Precio3{
     position: absolute;
     color: #ff702a;
-    top: 2710px;
+    top: 135.5em;
     font-size: 20px;
-    left:1500px ;
+    left:75em ;
 
 }
 .cuadro4{
     position: absolute;
     background-color: #ffefe8;
-    width: 1650px;
-    height: 450px;
-    left: 100px;
-    top: 4200px;
+    width: 103.1em;
+    height: 28.1em;
+    left: 6.25em;
+    top: 262.5em;
 }
 .texto5{
     position: absolute;
     background-color: #ffefe8;
     font-size: 70px;
-    left: 640px;
-    top: 4300px;
+    left: 9.14em;
+    top: 61.4em;
     text-align: center;
 
 }
@@ -424,10 +424,10 @@
    font-family: 'Poppins', sans-serif;
    text-decoration: none;
    font-size: 30px;
-   top: 4550px;
-   left: 830px;
-   width: 260PX;
-   height: 50PX;
+   top: 151.6em;
+   left: 27.6em;
+   width: 8.6em;
+   height: 1.6em;
    text-align: center;
    padding: 10px;
 }
@@ -435,87 +435,87 @@
     position: absolute;
     color: #ffefe8;
     font-size: 35px;
-    top: 4870px;
-    left: 200px;
+    top: 139.1em;
+    left: 5.7em;
 }
 .linea1{
     position: absolute;
-    top: 4950px;
-    left: 200px;
-    width: 100px;
-    height: 2px;
+    top: 309em;
+    left: 12.5em;
+    width: 6.2em;
+    height: 0.125em;
     background-color: #ff702a;
 }
 .menu1{
     position: absolute;
     color: #ffefe8;
     font-size: 25px;
-    top: 4950px;
-    left: 200px;
+    top: 198em;
+    left: 8em;
 }
 .link2{
     position: absolute;
     color: #ffefe8;
     font-size: 35px;
-    top: 4870px;
-    left: 600px;
+    top: 139.1em;
+    left: 17.1em;
 }
 .linea2{
     position: absolute;
-    top: 4950px;
-    left: 600px;
-    width: 100px;
-    height: 2px;
+    top: 309em;
+    left: 37.5em;
+    width: 6.25em;
+    height: 0.125em;
     background-color: #ff702a;
 }
 .menu2{
     position: absolute;
     color: #ffefe8;
     font-size: 25px;
-    top: 4950px;
-    left: 600px;
+    top: 198em;
+    left: 24em;
 }
 .link3{
     position: absolute;
     color: #ffefe8;
     font-size: 35px;
-    top: 4870px;
-    left: 1000px;
+    top: 139.1em;
+    left: 28.5em;
 }
 .linea3{
     position: absolute;
-    top: 4950px;
-    left: 1000px;
-    width: 100px;
-    height: 2px;
+    top: 309.3em;
+    left: 62.5em;
+    width: 6.258em;
+    height: 0.125em;
     background-color: #ff702a;
 }
 .menu3{
     position: absolute;
     color: #ffefe8;
     font-size: 25px;
-    top: 4950px;
-    left: 1000px;
+    top: 198em;
+    left: 40em;
 }
 .link4{
     position: absolute;
     color: #ffefe8;
     font-size: 35px;
-    top: 4870px;
-    left: 1400px;
+    top: 139.1em;
+    left: 40em;
 }
 .linea4{
     position: absolute;
-    top: 4950px;
-    left: 1400px;
-    width: 100px;
-    height: 2px;
+    top: 309.3em;
+    left: 87.5em;
+    width: 6.25em;
+    height: 0.125em;
     background-color: #ff702a;
 }
 
 .Espacio{
     position: absolute;
-    top:5300px;
+    top:331.2em;
     color: #1e1d2b;
 }
 
