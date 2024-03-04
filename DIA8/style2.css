@@ -1,0 +1,23 @@
+.miflex {
+    display: flex;
+    background-color: rgb(208, 217, 255);
+  }
+  
+  .miflex  div {
+    background-color: #ffc8c8;
+    margin: 10px;
+    text-align: center;
+    align-items: stretch;
+    font-size: 30px;
+    padding: 20px;
+    flex-grow: 1;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .carro1{
+
+    display: flex;
+  }
