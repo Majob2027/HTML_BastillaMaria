@@ -24,8 +24,8 @@
 .fondo{
     position: relative;
     background-color: #1e1d2b;
-    width: 1920px;
-    height: 1080px;
+    width: 120em;
+    height: 67.5em;
     font-family: 'Poppins', sans-serif;
 
 
@@ -96,8 +96,8 @@
     background-color: #ff702a;
     top: 38.7em;
     left: 12.5em;
-    width: 260px;
-    height: 50px;
+    width: 16.25em;
+    height: 3.12em;
 }
 .Caja{
     position: absolute;
@@ -106,10 +106,10 @@
    font-family: 'Poppins', sans-serif;
    text-decoration: none;
    font-size: 30px;
-   top: 630px;
-   left: 200px;
-   width: 260PX;
-   height: 50PX;
+   top: 21em;
+   left: 6.6em;
+   width: 8.6em;
+   height: 1.6em;
    text-align: center;
    padding: 10px;
 }
@@ -518,5 +518,4 @@
     top:331.2em;
     color: #1e1d2b;
 }
-
 
