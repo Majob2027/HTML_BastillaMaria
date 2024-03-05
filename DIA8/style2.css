@@ -19,5 +19,17 @@
 
   .carro1{
 
-    display: flex;
+    display: flexbox;
+  }
+   .carro2{
+
+    display: flexbox;
+  }
+   .carro3{
+
+    display: flexbox;
+  }
+   .carro4{
+
+    display: flexbox;
   }
