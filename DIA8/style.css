@@ -5,12 +5,20 @@
   
   .miflex  div {
     background-color: #ffc8c8;
+    color: white;
     margin: 10px;
     text-align: center;
     align-items: stretch;
     font-size: 30px;
     padding: 20px;
     flex-grow: 1;
+  }
+
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+
   }
 
   h1{
