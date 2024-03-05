@@ -1,11 +1,12 @@
 .miflex {
     display: flex;
     background-color: rgb(208, 217, 255);
+    flex-wrap: wrap;
   }
   
   .miflex  div {
     background-color: #ffc8c8;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     align-items: stretch;
     font-size: 30px;
@@ -16,6 +17,7 @@
   h1{
     text-align: center;
   }
+<<<<<<< HEAD
 
   .carro1{
 
@@ -33,3 +35,5 @@
 
     display: flexbox;
   }
+=======
+>>>>>>> e2514d758d71d0f32beebf8dc9d6d3a26fd543b7
