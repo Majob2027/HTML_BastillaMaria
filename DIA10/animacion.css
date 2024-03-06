@@ -1,0 +1,75 @@
+.animacionnube {
+    position: relative;
+    animation-name: nube;
+    animation-duration: 4s;
+
+  }
+  
+  @keyframes nube {
+    from {
+      margin-left: 100%;
+      width: 20%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 20%;
+    }
+  }
+
+.animacionflor{
+
+}
+.animacionlluvia{
+
+}
+.animacionsol{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+
+
+
+.fondo{
+    position: absolute;
+    width: 1920px;
+    height: 900px;
+    top: 0px;
+    left: 0px;
+}
+.sol{
+    position: absolute;
+    width: 200px;
+    left: 1735px;
+
+}
+
+
+.flores{
+    position: absolute;
+    width: 200px;
+
+}
+.casa{
+    position: absolute;
+    width: 800px;
+    left: 600px;
+    top: 300px;
+
+}
