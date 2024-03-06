@@ -1,5 +1,5 @@
 .animacionnube {
-    position: relative;
+    position: absolute;
     animation-name: nube;
     animation-duration: 4s;
 
