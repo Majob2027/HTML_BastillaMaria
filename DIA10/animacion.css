@@ -1,19 +1,24 @@
 .animacionnube {
     position: absolute;
-    animation: nube 20s ;
-    opacity: 0;
+    animation: nube 17s forwards;
+    transform: translate(-100%,-50%);
+    top: 200px;
     animation-delay: 4s;
 
   }
   
   @keyframes nube {
-    0%, 100% {
-      margin-left: 100%;
-      opacity: 100;
+    0% {
+      right: -100%; 
     }
-  
-    50% {
-      margin-left: 0%;
+    40% {
+      right: 30%; 
+    }
+    60% {
+      right: 30%; 
+    }
+    100% {
+      right: 100%; 
     }
   }
   
@@ -22,8 +27,8 @@
     position: absolute;
     left: 20%;
     opacity: 0;
-    animation: bloomAndDisappear 5s ;
-    animation-delay: 30s;
+    animation: bloomAndDisappear 6s ;
+    animation-delay: 22s;
   }
   
   @keyframes bloomAndDisappear {
@@ -38,26 +43,66 @@
   }
 
 .animacionlluvia{
-
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  top: 350px;
+  left: 250px;
+  animation: lluvia 3s linear forwards, lluvia2 5s;
+  animation-delay: 10s;
+  opacity: 0;
 }
+
+
+  @keyframes lluvia {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+  
+    100% {
+        opacity: 0; 
+      }
+    }
+
+
+  @keyframes lluvia2 {
+    0% {
+        top: 180;
+    }
+
+  
+    100% {
+        top: 300px; 
+      }
+  }
+  
+  
+
+
 .animacionsol1{
   position: absolute;
-    width: 200px;
-    left: 1735px;
+  width: 200px;
+  left: 1735px;
   opacity: 10;
-  animation: sol1 24s ;
+  animation: soli 30s ;
   animation-delay: 0s;
 }
 
-.animacionsol1{
-  position: absolute;
-    width: 200px;
-    left: 1735px;
-  opacity: 10;
-  animation: sol1 3s ;
-  animation-delay: 24s;
-}
+@keyframes soli {
+  0% {
+      opacity: 0.2;
+  }
+  50%{
+      opacity: 0.2;
+  }
 
+  100% {
+      opacity: 1; 
+    }
+}
 
 
 
