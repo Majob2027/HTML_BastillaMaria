@@ -1,26 +1,29 @@
 .animacionnube {
     position: absolute;
-    animation: nube 5s forwards;
+    animation: nube 20s ;
+    opacity: 0;
+    animation-delay: 4s;
 
   }
   
   @keyframes nube {
-    from {
+    0%, 100% {
       margin-left: 100%;
+      opacity: 100;
     }
   
-    to {
+    50% {
       margin-left: 0%;
-
     }
   }
+  
 
   .animacionflor {
     position: absolute;
     left: 20%;
     opacity: 0;
     animation: bloomAndDisappear 5s ;
-    animation-delay: 5s;
+    animation-delay: 30s;
   }
   
   @keyframes bloomAndDisappear {
@@ -37,9 +40,109 @@
 .animacionlluvia{
 
 }
-.animacionsol{
-
+.animacionsol1{
+  position: absolute;
+    width: 200px;
+    left: 1735px;
+  opacity: 10;
+  animation: sol1 24s ;
+  animation-delay: 0s;
 }
+
+.animacionsol1{
+  position: absolute;
+    width: 200px;
+    left: 1735px;
+  opacity: 10;
+  animation: sol1 3s ;
+  animation-delay: 24s;
+}
+
+
+
+
+
+
+.animacion3 {
+  position: absolute;
+  font-size: 60px;
+  left: 30%;
+  opacity: 0;
+  animation: bloomAndDisappear 1s ;
+  animation-delay: 0s;
+}
+
+@keyframes bloomAndDisappear {
+  from {
+    margin-top: 20%; 
+    opacity: 100;
+  }
+
+  to {
+    margin-top: 20%; 
+  }
+}
+
+.animacion2 {
+  position: absolute;
+  font-size: 60px;
+  left: 30%;
+  opacity: 0;
+  animation: bloomAndDisappear 1s ;
+  animation-delay: 1s;
+}
+
+@keyframes bloomAndDisappear {
+  from {
+    margin-top: 40%; 
+    opacity: 100;
+  }
+
+  to {
+    margin-top: 30%; 
+  }
+}
+
+.animacion1 {
+  position: absolute;
+  font-size: 60px;
+  left: 30%;
+  opacity: 0;
+  animation: bloomAndDisappear 1s ;
+  animation-delay: 2s;
+}
+
+@keyframes bloomAndDisappear {
+  from {
+    margin-top: 40%; 
+    opacity: 100;
+  }
+
+  to {
+    margin-top: 30%; 
+  }
+}
+
+.animacionaccion {
+  position: absolute;
+  font-size: 60px;
+  left: 30%;
+  opacity: 0;
+  animation: bloomAndDisappear 1s ;
+  animation-delay: 3s;
+}
+
+@keyframes bloomAndDisappear {
+  from {
+    margin-top: 40%; 
+    opacity: 100;
+  }
+
+  to {
+    margin-top: 30%; 
+  }
+}
+
 
 
 
