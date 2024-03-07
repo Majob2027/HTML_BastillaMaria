@@ -70,7 +70,7 @@
 
   @keyframes lluvia2 {
     0% {
-        top: 180;
+        top: 180px;
     }
 
   
@@ -211,7 +211,7 @@ p {
 .fondo{
     position: absolute;
     width: 1920px;
-    height: 900px;
+    height: 1080px;
     top: 0px;
     left: 0px;
 }
